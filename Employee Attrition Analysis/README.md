@@ -1,13 +1,19 @@
 # Employee-Attrition-Analysis
-My second data analysis project, which centres on the crucial topic of employee attrition analysis.
+*My second data analysis project*
 
+## Overview:
+This project aims to delve deeply into the factors that contribute to employees leaving their jobs, utilizing data analysis techniques to uncover trends and valuable insights.
 
-## Data source:
-https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset 
+## Tools Used:
+- MS-Excel
+- R
+- Tableau
+  
+## Data & Meta Data:
+**Data source:** https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset
 
-## Meta Data:
-
-This is a metadata of the dataset which i have used for analyis.<br>  
+**Meta Data:**  
+This is the metadata of the dataset that I have used for analysis. <br>  
 |            Name            |	            Description                                                                                   |
 | :------------------------- | :--------------------------- |
 AGE                         |     Numerical Value - Age of employee
@@ -46,11 +52,13 @@ YEARS IN CURRENT ROLE	      |    Numerical Value -YEARS IN CURRENT ROLE
 YEARS SINCE LAST PROMOTION  |    Numerical Value - LAST PROMOTION
 YEARS WITH CURRENT MANAGER	|    Numerical Value - YEARS SPENT WITH CURRENT MANAGER
 ----
-## OTHER INFORMATION
-Find the datasets, processed dataset , R analysis code in my repository
+
+## FOR MORE INFORMATION:
+For the detailed methodology and findings, check out the full article on Medium: 
+[![Medium Icon](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)]([https://medium.com/@ria332hdh/google-data-analytics-capstone-3ac3470ac9bb](https://medium.com/@ria332hdh/employee-attrition-analysis-75c44f354679))
+
 
 ## TABLEAU DASHBOARD
-
 
 [Link to Final Dashboard](https://public.tableau.com/views/employee_attrition_16990248611900/overview?:language=en-US&:display_count=n&:origin=viz_share_link)
 
