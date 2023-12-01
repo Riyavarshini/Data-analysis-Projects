@@ -1,0 +1,46 @@
+﻿,,,,,,,,,,,,,,,,,,,
+BEFORE SORTING COLUMN,,,AFTER SORTING COLUMN,,,,BEFORE DELETING,,AFTER DELETING UNWANTED COLUMNS,,NOTATIONS FOR EACH LEVEL,,,,,,AFTER MADE CHANGES TO EACH LEVEL IN COLUMN,,
+Columns in dataset,values at row1,,Columns in dataset,values at row1,sort order,,Columns in dataset,,Columns in dataset,,EDUCATION,,,JOB SATISFACTION,,,Columns in dataset,FORMULA USED,values at row1
+Age,41,,EmployeeNumber,1,1,,EmployeeNumber,,Employee_No,,1,Below College,,1,Low,,Employee_No,,1
+Attrition,Yes,,Attrition,Yes,2,,Attrition,,Attrition,,2,College,,2,Medium,,Attrition,,Yes
+BusinessTravel,Travel_Rarely,,Gender,Female,3,,Gender,,Gender,,3,Bachelor,,3,High,,Gender,,Female
+DailyRate,1102,,Age,41,4,,Age,,Age,,4,Master,,4,Very high,,Age,"IFS(AND(D2>=18,D2<25),""Between 18 to 24"",AND(D2>=25,D2<32),""Between 25 to 31"",AND(D2>=32,D2<39),""Between 32 to 38"",AND(D2>=39,D2<45),""Between 39 to 44"",AND(D2>=45,D2<52),""Between 45 to 51"",D2>=52,""52 and more than 52"")",Between 39 to 44
+Department,Sales,,Education,2,5,,Education,,Education,,5,Doctor,,,,,,,
+DistanceFromHome,1,,EducationField,Life Sciences,6,,EducationField,,Education_Field,,,,,,,,Education,"IFS(G2=1,""Below college"",G2=2,""College"",G2=3,""Bachelor"",G2=4,""Master"",G2=5,""Doctor"")",College
+Education,2,,MaritalStatus,Single,7,,MaritalStatus,,Marital_Status,,JOB INVOLVEMENT,,,RELATIONSHIP SATISFACTION,,,Education_Field,,Life Sciences
+EducationField,Life Sciences,,Department,Sales,8,,Department,,Department,,1,Low,,1,Low,,Marital_Status,,Single
+EmployeeCount,1,,JobRole,Sales Executive,9,,JobRole,,Job_Role,,2,Medium,,2,Medium,,Department,,Sales
+EmployeeNumber,1,,JobLevel,2,10,,JobLevel,,Job_Level,,3,High,,3,High,,Job_Role,,Sales Executive
+EnvironmentSatisfaction,2,,DistanceFromHome,1,11,,DistanceFromHome,,Distance_From_Home,,4,Very high,,4,Very high,,Job_Level,,2
+Gender,Female,,BusinessTravel,Travel_Rarely,12,,BusinessTravel,,Business_Travel,,,,,,,,Distance_From_Home,"VLOOKUP(K2,Sheet1!$L$29:$M$31,2,1)",1 - 9 km
+HourlyRate,94,,HourlyRate,94,13,,HourlyRate,,Hourly_Rate,,PERFORMANCE RATING,,,WORK LIFE BALANCE,,,Business_Travel,,Travel_Rarely
+JobInvolvement,3,,DailyRate,1102,14,,DailyRate,,Daily_Rate,,1,Low,,1,Bad,,Hourly_Rate,,94
+JobLevel,2,,MonthlyRate,19479,15,,MonthlyRate,,Monthly_Rate,,2,Good,,2,Good,,Daily_Rate,,1102
+JobRole,Sales Executive,,MonthlyIncome,5993,16,,MonthlyIncome,,Monthly_Income,,3,Excellent,,3,Better,,Monthly_Rate,,19479
+JobSatisfaction,4,,PercentSalaryHike,11,17,,PercentSalaryHike,,Percent_Salary_Hike,,4,Outstanding,,4,Best,,Monthly_Income,,5993
+MaritalStatus,Single,,JobInvolvement,3,18,,JobInvolvement,,Job_Involvement,,,,,,,,Percent_Salary_Hike,,11
+MonthlyIncome,5993,,PerformanceRating,3,19,,PerformanceRating,,Performance_Rating,,ENVIRONMENT SATISFACTION,,,AGE GROUP,,,Job_Involvement,"IFS(R2=1,""Low"",R2=2,""Medium"",R2=3,""High"",R2=4,""Very High"")",High
+MonthlyRate,19479,,EnvironmentSatisfaction,2,20,,EnvironmentSatisfaction,,Environment_Satisfaction,,1,Low,,1,Between 18 to 24,,Performance_Rating,"IFS(T2=1,""Low"",T2=2,""Good"",T2=3,""Excellent"",T2=4,""Outstanding"")",Excellent
+NumCompaniesWorked,8,,JobSatisfaction,4,21,,JobSatisfaction,,Job_Satisfaction,,2,Medium,,2,Between 25 to 31,,Environment_Satisfaction,"IFS(V2=1,""Low"",V2=2,""Medium"",V2=3,""High"",V2=4,""Very High"")",Medium
+Over18,Y,,RelationshipSatisfaction,1,22,,RelationshipSatisfaction,,Relationship_Satisfaction,,3,High,,3,Between 32 to 38,,Job_Satisfaction,"IFS(X2=1,""Low"",X2=2,""Medium"",X2=3,""High"",X2=4,""Very High"")",Very High
+OverTime,Yes,,WorkLifeBalance,1,23,,WorkLifeBalance,,Work_Life_Balance,,4,Very high,,4,Between 39 to 44,,Relationship_Satisfaction,"IFS(Z2=1,""Low"",Z2=2,""Medium"",Z2=3,""High"",Z2=4,""Very High"")",Low
+PercentSalaryHike,11,,OverTime,Yes,24,,OverTime,,Over_Time,,,,,5,Between 45 to 51,,Work_Life_Balance,"IFS(AB2=1,""Bad"",AB2=2,""Good"",AB2=3,""Better"",AB2=4,""Best"")",Bad
+PerformanceRating,3,,StockOptionLevel,0,25,,StockOptionLevel,,Stock_Option_Level,,,,,6,52 and more than 52,,Over_Time,,Yes
+RelationshipSatisfaction,1,,NumCompaniesWorked,8,26,,NumCompaniesWorked,,No_Companies_Worked,,,,,,,,Stock_Option_Level,,0
+StandardHours,80,,TotalWorkingYears,8,27,,TotalWorkingYears,,Total_Working_Years,,Distance_From_Home,,,Years since last promotion,,,No_Companies_Worked,,8
+StockOptionLevel,0,,TrainingTimesLastYear,0,28,,TrainingTimesLastYear,,Training_Times_LastYear,,1,1 - 9 km,,0,0 - 5 years,,Total_Working_Years,,8
+TotalWorkingYears,8,,YearsAtCompany,6,29,,YearsAtCompany,,Years_At_Company,,10,10 - 19 km,,6,6 - 10 years,,Training_Times_LastYear,"VLOOKUP(AA2,Sheet1!O$43:P$46,2,1)",0 - 10 years
+TrainingTimesLastYear,0,,YearsInCurrentRole,4,30,,YearsInCurrentRole,,Years_In_Current_Role,,20,20 - 30 km,,11,11 - 15 Years,,Years_At_Company,"VLOOKUP(AC2,Sheet1!L$43:M$46,2,1)",0 - 10 years
+WorkLifeBalance,1,,YearsSinceLastPromotion,0,31,,YearsSinceLastPromotion,,Years_Since_LastPromotion,,,,,,,,Years_In_Current_Role,"VLOOKUP(AD2,Sheet1!L$35:M$38,2,1)",0 - 5 years
+YearsAtCompany,6,,YearsWithCurrManager,5,32,,YearsWithCurrManager,,Years_with_Curr_Manager,,,,,,,,Years_Since_LastPromotion,"VLOOKUP(AE3,Sheet1!O$31:P$33,2,1)",0 - 5 years
+YearsInCurrentRole,4,,EmployeeCount,1,33,,EmployeeCount,,,,Years_In_Current_Role,,,Years_with_Curr_Manager,,,Years_with_Curr_Manager,"VLOOKUP(AH2,Sheet1!L$41:M$44,2,1)",0 - 5 years
+YearsSinceLastPromotion,0,,Over18,Y,34,,Over18,,,,0,0 - 5 years,,0,0 - 5 years,,,,
+YearsWithCurrManager,5,,StandardHours,80,35,,StandardHours,,,,6,6 - 10 years,,6,6 - 10 years,,,,
+,,,,,,,,,,,11,11 - 15 years,,11,11 - 15 years,,,,
+,,,,,,,,,,,16,16 - 20 years,,16,16 - 20 years,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,Years_At_Company,,,Total_Working_Years,,,,,
+,,,,,,,,,,,0,0 - 10 years,,0,0 - 10 years,,,,
+,,,,,,,,,,,11,11 - 20 years,,11,11 - 20 years,,,,
+,,,,,,,,,,,21,21 - 30 years,,21,21 - 30 years,,,,
+,,,,,,,,,,,31,More than 31 years,,31,More than 31 years,,,,
