@@ -10,7 +10,7 @@ Navigate to each project folder to find detailed information
    - Data analytics certification final project
    - Tools Used: R, Tableau
 
-**2. [EMPLOYEE ATTRITION]()**
+**2. [EMPLOYEE ATTRITION](Employee%20Attrition%20Analysis/)**
    - Personal project to hone my skills in data analysis
    - Tools Used: Ms-Excel, R, Tableau
 
