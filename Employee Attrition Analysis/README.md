@@ -55,7 +55,7 @@ YEARS WITH CURRENT MANAGER	|    Numerical Value - YEARS SPENT WITH CURRENT MANAG
 
 ## FOR MORE INFORMATION:
 For the detailed methodology and findings, check out the full article on Medium: 
-[![Medium Icon](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)]([https://medium.com/@ria332hdh/google-data-analytics-capstone-3ac3470ac9bb](https://medium.com/@ria332hdh/employee-attrition-analysis-75c44f354679))
+[![Medium Icon](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@ria332hdh/employee-attrition-analysis-75c44f354679)
 
 
 ## TABLEAU DASHBOARD
